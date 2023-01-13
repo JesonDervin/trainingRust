@@ -1,0 +1,15 @@
+vscode:
+  extensions:
+  - naaron-bond.better-comments
+  - nbungcip.better-toml
+  - ndcasella.monokai-plusplus
+  - nesbenp.prettier-vscode
+  - nformulahendry.auto-close-tag
+  - nGitHub.vscode-pull-request-github
+  - nhbenl.test-adapter-converter
+  - nhbenl.vscode-test-explorer
+  - nkamikillerto.vscode-colorize
+  - npinage404.rust-extension-pack
+  - nrust-lang.rust-analyzer
+  - nserayuzgur.crates
+  - nSwellaby.vscode-rust-test-adapter
