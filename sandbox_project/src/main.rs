@@ -1,22 +1,20 @@
-use std::io;
-
 fn main() {
-    let a = [1, 2, 3, 4, 5];
+    let mut s = String::from("hello world");
 
-    println!("Please enter an array index.");
+    let word = first_word(&s);
 
-    let mut index = String::new();
+    s.clear(); // error!
 
-    io::stdin()
-        .read_line(&mut index)
-        .expect("Failed to read line");
+    println!("the first word is: {}", word);
+}
+fn first_word(s: &String) -> &str {
+    let bytes = s.as_bytes();
 
-    let index: usize = index
-        .trim()
-        .parse()
-        .expect("Index entered was not a number");
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return &s[0..i];
+        }
+    }
 
-    let element = a[index];
-
-    println!("The value of the element at index {index} is: {element}");
+    &s[..]
 }
