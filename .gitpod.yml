@@ -5,7 +5,6 @@ vscode:
   - dcasella.monokai-plusplus
   - esbenp.prettier-vscode
   - formulahendry.auto-close-tag
-  - GitHub.vscode-pull-request-github
   - hbenl.test-adapter-converter
   - hbenl.vscode-test-explorer
   - kamikillerto.vscode-colorize
